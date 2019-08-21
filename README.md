@@ -1,7 +1,9 @@
 # Description
 This algorithm outputs an image using the RGB values of a given input image's pixel as a basis for the frequency of a sine wave occupying a row of the image.
 
-The program is based around the observation that a function f, $f(t) = A sin (wt + f)$, and that we can input RGB values normalized to 0 to 2π to generate a waveform. 
+The program is based around the observation that for a function f: 
+`f(t) = A sin (wt + f)` 
+Consider that from this, we can use averaged RGB values normalized to 0 to 2π to generate a waveform, if we take the set of those RGB values as the variable t, to create the above function for a row.
 
 # Visual Results
 
